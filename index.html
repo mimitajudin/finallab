@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Final Project</title>
+	<link rel="stylesheet" type="text/css"  href="css/main.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+<body>
+	<!-- header -->
+	<header>
+		
+	<nav class="flex">
+            <div class="logo"><h1>CVD19</h1></div>
+            <div class="openMenu"><i class="fa fa-bars"></i></div>
+            <ul class="main_menu flex">
+                <li><a href="#">Home</a></li>
+                <li><a href="html/contagion.html">Contagion</a></li>
+                <li><a href="html/symptoms.html">Symptoms</a></li>
+                <li><a href="html/prevention.html">Prevention</a></li>
+                <li><a href="html/faq.html">FAQ</a></li>
+                <li><a href="html/contact.html">Contact Us</a></li>
+                <div class="closeMenu"><i class="fa fa-times"></i></div>
+            </ul>
+        </nav>
+		
+	</header>
+
+	<!-- banner -->
+	<section class= "banner_content flex ">
+		
+			<h4>Corona Virus</h4>
+			<h1>COVID-<span>19</span></h1>
+			<p >The Coronavirus disease (Covid19) was first reported in <br/>Wuhan, Hubei China in December 2019.</p>
+			<a class="button" href="html/symptoms.html"> Check Symptoms</a>
+	</section>
+
+
+	<!-- overview -->
+
+	<section id="about" class="covid-about grid">
+		
+		<div class="img">
+			<img src="img/Covid19.png">
+		</div>
+
+		<div class="content">
+			<h3 class="pink_h3">About this disease</h3>
+			<h1>Corona Virus (Covid-19)</h1>
+			<p>
+				COVID-19 is a new illness that can affect your lungs and airways. It's caused by a virus called coronavirus. It was discovered in December 2019 in Wuhan, Hubei, China. 
+
+				Common signs of infection include respiratory symptoms, fever, cough, shortness of breath and breathing difficulties. 
+			</p>
+
+			
+			<a class="button" href="html/symptoms.html"> Check Symptoms</a>	
+			
+		</div>
+		
+
+	</section>
+
+	<!-- contagion -->
+
+	<section class="covid-contagion grid">
+		
+		<div class="contagion ">
+			<h3 class="pink_h3">Covid-19 Contagion</h3>
+			<h1>How does Covid19 spread?</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			<a class="button" href="html/prevention.html"> Check Preventions</a>
+		</div>
+		
+		<div class="cont_card">
+			<button type="button" class="collapsible">Coughing and Sneezing</button>
+			<div class="cont_content">
+			  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			</div>
+			<button type="button" class="collapsible">Close Contact</button>
+			<div class="cont_content">
+			  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+			</div>
+			<button type="button" class="collapsible">Touching infected object/surface</button>
+			<div class="cont_content">
+			  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+			</div>
+		
+		</div>
+		
+
+	</section>
+
+
+	<!-- symptoms -->
+
+	<section class="covid-symptom grid">
+		
+		<div class="symptoms">
+			<h3 class="pink_h3">Covid-19 Symptoms</h3>
+			<h1>What are the symptoms</h1>
+			<p>
+				COVID-19 symptoms range from mild to severe.It takes 2-14 days after exposure for symptoms to develop. Symptoms may include:
+				<div class="symptom_list grid">
+				<div class="first_lists">
+					<i class="fa fa-check"> Hard Cough</i>
+					<i class="fa fa-check"> Fever</i>
+					<i class="fa fa-check"> Headache</i>
+				</div>
+				
+				<div class="sec_lists">
+					<i class="fa fa-check"> Respiratory distress</i>
+					<i class="fa fa-check">Shortness of breath</i>
+					<i class="fa fa-check">Kidney Failure</i>
+				</div>
+				</div>
+			</p>
+			<a class="button" href="html/prevention.html"> Check Preventions</a>
+		</div>
+
+		<div class="pic">
+			<img src="img/contagion.png">
+		</div>
+		
+
+	</section>
+
+
+	<!-- prevention -->
+
+	<section class="covid-prevention flex">
+		
+		<div class="prevention">
+			<h3 class="pink_h3">Covid-19 Preventions</h3>
+			<h1>How can I protect myself from Covid-19</h1>
+			
+			<div class="one_line flex">
+				<button id="myBtn1" class="btn">Do's</button>
+				<button id="myBtn2" class="btn">Don'ts</button>
+			</div>
+			
+		</div>
+
+		
+
+	</section>
+
+	<!-- modal for do's & don'ts -->
+	<div id="do" class="modal">
+		<div class="modal_content">
+			<span id="exit1" class="close">X</span>
+			<p class="animate__animated animate__lightSpeedInRight">Do's (3W)</p>
+
+			<div class="w3">
+				<div class="border">
+				<h4>1. Wash</h4>
+					<ul>
+						<li>Wash your hand frequently using soap and water.</li>
+					</ul>
+				</div>
+				
+				<div class="border">
+				<h4>2. Wear</h4>
+					<ul>
+						<li>Wear your mask when you go outside.</li>
+					</ul>
+				</div>
+
+				<div class="border">
+				<h4>3. Warn</h4>
+					<ul>
+						<li>Keep updated and alert on any news by KKM.</li>
+					</ul>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+
+	<div id="donts" class="modal">
+		<div class="modal_content">
+			<span id="exit2" class="close">X</span>
+			<p class="animate__animated animate__lightSpeedInRight">Don'ts (3C)</p>
+
+			<div class="w3">
+				<div class="border">
+				<h4>1. Crowded Places</h4>
+					<ul>
+						<li>Avoid going to crowded places.</li>
+					</ul>
+				</div>
+				
+				<div class="border">
+				<h4>2. Confined spaces</h4>
+					<ul>
+						<li>Make sure you are always in open places.</li>
+					</ul>
+				</div>
+
+				<div class="border">
+				<h4>3. Close conversation</h4>
+					<ul>
+						<li>Never make any close conversation to people.</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<!-- FAQ -->
+	<section class="faq flex">
+			
+			<div class="faq_title">
+				<h1>Frequently Asked Question</h1>
+			</div>
+			
+			
+			<button type="button" class="collapsible_faq">What is novel Corona Virus</button>
+			
+			<div class="faq_content">
+			  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			</div>
+
+			<button type="button" class="collapsible_faq">Why is the disease being called coronavirus disease 2019,COVID19?</button>
+			
+			<div class="faq_content">
+			  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+			</div>
+			
+			<button type="button" class="collapsible_faq">How can people help stop stigma related to Covid-19</button>
+			
+			<div class="faq_content">
+			  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+			</div>
+			
+			<button type="button" class="collapsible_faq">What is the source of the virus?</button>
+			<div class="faq_content">
+			  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			</div>
+			
+			<button type="button" class="collapsible_faq">Can a person test negative and later positive for COVID-19?</button>
+			
+			<div class="faq_content">
+			  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			</div>
+		
+	</section>
+
+	<!-- contact us -->
+	<section class="contact flex">
+		
+		<div class="contact_title">
+			<h1>Contact Us</h1>
+		</div>
+
+		<form >
+		  <label for="fname">First name:</label><br>
+		  <input type="text" id="fname" placeholder="John"><br><br>
+		  <label for="lname">Last name:</label><br>
+		  <input type="text" id="lname" placeholder="Doe"><br><br>
+		  <label for="email">Email:</label><br>
+		  <input type="email" id="email" placeholder="name@gmail.com"><br><br>
+		  <label for="phone">Phone number:</label><br>
+		  <input type="number" id="phone" placeholder="013-3344909"><br><br>
+		  <input type="radio" id="male" name="gender" value="male">
+		  <label for="male">Male</label>
+		  <input type="radio" id="female" name="gender" value="female">
+		  <label for="male">Female</label>
+
+		    <select id="state" name="state">
+		      <option value="Selangor">Selangor</option>
+		      <option value="Kuala Lumpur">Kuala Lumpur</option>
+		      <option value="Melaka">Melaka</option>
+		      <option value="Negeri Sembilan">Negeri Sembilan</option>
+		      <option value="Pahang">Pahang</option>
+		      <option value="Johor">Johor</option>
+		      <option value="Sabah">Sabah</option>
+		      <option value="Sarawak">Sarawak</option>
+		      <option value="Kedah">Kedah</option>
+		      <option value="Pulau Pinang">Pulau Pinang</option>
+		      <option value="Perak">Perak</option>
+		      <option value="Kelantan">Kelantan</option>
+		      <option value="Labuan">Labuan</option>
+		    </select>
+		  <input type="submit" value="Submit">
+		</form> 
+
+	</section>
+	
+
+	<!-- footer -->
+
+	<footer class="footer grid">
+		<div class="foot grid1">
+			<h4>CVD19</h4>
+			<p>Coronavirus disease (Covid19) is an infectious disease caused by a new virus.</p>
+		</div>
+		<div class="foot grid2">
+			<h4>About</h4>
+			<a href="html/contagion.html">Contagion</a>
+			<a href="html/symptoms.html">Symptoms</a>
+			<a href="html/prevention.html">Prevention</a>
+			<a href="html/faq.html">FAQ</a>
+		</div>
+		<div class=" foot grid3">
+			<h4>Useful Links</h4>
+			<a href="https://covid-19.moh.gov.my/">Covid19 in Malaysia</a>
+			<a href="https://covid19.who.int/">WHO Covid19</a>
+		</div>
+		<div class=" foot grid4">
+			<h4>Contact Us</h4>
+			<i style="font-size: 20px;" class="fa fa-phone">Call 800-232-4636</i>
+			<i style="font-size: 20px;" class="fa fa-envelope"> Email </i>
+				
+		</div> 
+	</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

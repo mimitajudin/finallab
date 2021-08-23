@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Final Project</title>
+	<link rel="stylesheet" type="text/css"  href="../css/main.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+	<!-- header -->
+	<header>
+		
+	<nav class="flex">
+            <div class="logo"><h1>CVD19</h1></div>
+            <div class="openMenu"><i class="fa fa-bars"></i></div>
+            <ul class="main_menu flex">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="contagion.html">Contagion</a></li>
+                <li><a href="symptoms.html">Symptoms</a></li>
+                <li><a href="prevention.html">Prevention</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <div class="closeMenu"><i class="fa fa-times"></i></div>
+            </ul>
+        </nav>
+		
+	</header>
+
+	<!-- FAQ -->
+	<section class="faq top flex">
+			
+			<div class="faq_title">
+				<h1>Frequently Asked Question</h1>
+			</div>
+			
+			
+			<button type="button" class="collapsible_faq">What is novel Corona Virus</button>
+			
+			<div class="faq_content">
+			  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			</div>
+
+			<button type="button" class="collapsible_faq">Why is the disease being called coronavirus disease 2019,COVID19?</button>
+			
+			<div class="faq_content">
+			  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+			</div>
+			
+			<button type="button" class="collapsible_faq">How can people help stop stigma related to Covid-19</button>
+			
+			<div class="faq_content">
+			  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+			</div>
+			
+			<button type="button" class="collapsible_faq">What is the source of the virus?</button>
+			<div class="faq_content">
+			  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			</div>
+			
+			<button type="button" class="collapsible_faq">Can a person test negative and later positive for COVID-19?</button>
+			
+			<div class="faq_content">
+			  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			</div>
+		
+	</section>
+
+	<!-- footer -->
+
+	<footer class="footer grid">
+		<div class="foot grid1">
+			<h4>CVD19</h4>
+			<p>Coronavirus disease (Covid19) is an infectious disease caused by a new virus.</p>
+		</div>
+		<div class="foot grid2">
+			<h4>About</h4>
+			<a href="contagion.html">Contagion</a>
+			<a href="symptoms.html">Symptoms</a>
+			<a href="prevention.html">Prevention</a>
+			<a href="faq.html">FAQ</a>
+		</div>
+		<div class=" foot grid3">
+			<h4>Useful Links</h4>
+			<a href="https://covid-19.moh.gov.my/">Covid19 in Malaysia</a>
+			<a href="https://covid19.who.int/">WHO Covid19</a>
+		</div>
+		<div class=" foot grid4">
+			<h4>Contact Us</h4>
+			<i style="font-size: 20px;" class="fa fa-phone"> Call 800-232-4636</i>
+			<i style="font-size: 20px;" class="fa fa-envelope"> Email </i>
+				
+		</div>
+	</footer>
+
+<script>
+	var coll = document.getElementsByClassName("collapsible_faq");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+
+</script>
+<script src="../js/main.js"></script>
+</body>
+</html>
