@@ -79,7 +79,6 @@ nav .logo {
 	flex-direction: column;
 	align-items: flex-end;
 	position: relative;
-	
 
 }
 
@@ -187,7 +186,7 @@ h3.pink_h3{
 	
 }
 
-.contagion p{
+.contagion ul li  {
 	padding-bottom: 30px;
 }
 
@@ -380,7 +379,7 @@ flex-direction: row;
   color: white;
   cursor: pointer;
   padding: 10px;
-  width: 70%;
+  width: 80%;
   border: solid peachpuff;
   border-top-right-radius: 15px;
   border-top-left-radius: 15px;
@@ -398,6 +397,7 @@ flex-direction: row;
   overflow: hidden;
   background-color: white;
   border: solid white;
+  width: 80%;
   border-bottom-right-radius: 15px;
   border-bottom-left-radius: 15px;
 }
@@ -511,7 +511,7 @@ input[type=submit]:hover {
 
 
 /*responsive for mobile phone*/
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 738px){
 
 
  nav .main_menu {
@@ -575,8 +575,9 @@ input[type=submit]:hover {
 
 a.button{
 	
-	font-size:15px;
-	width: 60%;
+	font-size:16px;
+	width: 70%;
+	line-height: 20px;
 	
 
 }
@@ -616,8 +617,6 @@ h3.pink_h3{
 .covid-contagion{
 	background-color:peachpuff;
 	grid-template-columns: auto;
-	justify-content: center;
-	align-items: center;
 	height: 600px;
 	padding-bottom: 50px;
 	font-size: 15px;
