@@ -39,32 +39,23 @@
 			<button type="button" class="collapsible_faq">What is novel Corona Virus</button>
 			
 			<div class="faq_content">
-			  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+			  <p>Coronaviruses (CoV) are a large family of viruses that cause illness ranging from the common cold to more severe diseases such as Middle East Respiratory Syndrome (MERS-CoV) and Severe Acute Respiratory Syndrome (SARS-CoV). A novel coronavirus (nCoV) is a new strain that has not been previously identified in humans.</p>
 			</div>
 
 			<button type="button" class="collapsible_faq">Why is the disease being called coronavirus disease 2019,COVID19?</button>
 			
 			<div class="faq_content">
-			  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+			  <p>Coronavirus refers to a large family of viruses that includes SARS-CoV-2, the virus that causes COVID-19. For this reason, some people call the virus coronavirus. </p>
 			</div>
 			
 			<button type="button" class="collapsible_faq">How can people help stop stigma related to Covid-19</button>
 			
 			<div class="faq_content">
-			  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+			  <p>Counter stigma by learning and sharing facts. Communicating the facts that viruses do not target specific racial or ethnic groups and how COVID-19 actually spreads can help stop stigma. </p>
 			</div>
 			
-			<button type="button" class="collapsible_faq">What is the source of the virus?</button>
-			<div class="faq_content">
-			  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-			</div>
 			
-			<button type="button" class="collapsible_faq">Can a person test negative and later positive for COVID-19?</button>
 			
-			<div class="faq_content">
-			  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-			</div>
-		
 	</section>
 
 	<!-- footer -->
@@ -94,6 +85,23 @@
 		</div>
 	</footer>
 
+<script>
+	var coll = document.getElementsByClassName("collapsible_faq");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+
+</script>
 <script src="../js/main.js"></script>
 </body>
 </html>
